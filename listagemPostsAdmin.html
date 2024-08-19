@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav justify-content-center">
+            <a class="nav-link" href="novoPost.html">Home</a>
+            <a class="nav-link" href="listagemPostsAdmin.html">Listagem de Pets</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <h1>Listagem de Pets</h1>
+        <table id="postsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Categoria</th>
+                    <th>Data de Criação</th>
+                    <th>URL da Foto</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas da tabela serão inseridas aqui dinamicamente pelo JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+
+    <footer class="footer-app">
+        <p>Projeto desenvolvido para a lab 365 - DEVinHouse [Clamed] V3 - Módulo 1</p>
+        <p>Desenvolvido por: <a href="https://www.linkedin.com/in/ruhan-macedo-4a25a3182/">Ruhan Roberto Macedo</a></p>
+    </footer>
+
+    <script src="./scripts/listagemPostsAdmin.js"></script>
+</body>
+
+</html>

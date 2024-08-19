@@ -1,0 +1,159 @@
+body {
+    background-image: url('../assets/quadro-fundo.jpg');
+}
+
+.header {
+    background-color: #4682B4;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    color: #fffacd;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.header .nav-link:hover {
+    color: #f49fbc; 
+    text-decoration: underline; 
+}
+
+.container {
+    width: 70%;
+    background-color: #D3D3D3;
+    margin: 40px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 10px;
+}
+
+.container h1 {
+    color: #4682B4;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.input-container label {
+    margin-bottom: 5px;
+    color: #4682B4;
+}
+
+/*.option-bold {
+    font-weight: bold;
+}*/
+
+.input-container input,
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #4682B4;
+    outline-color: #f49fbc;
+    color: #4682B4;
+    resize: vertical;
+}
+
+.input-container textarea {
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-submit {
+    background-color: #4682B4;
+    color: #D3D3D3;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer-app {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-color: #4682B4;
+}
+
+.footer-app p {
+    color: #fffacd;
+    text-align: center;
+    font-size: 18px;
+}   
+
+.footer-app a {
+    color: #fffacd;
+    text-decoration: none;
+}
+
+.footer-app a:hover {
+    color: #f49fbc;
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/*  CSS da tela de listagem pets  */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #4682B4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4682B4;
+    color: #fffacd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.delete-btn img {
+    width: 24px;
+    height: 24px;
+}
